@@ -367,10 +367,10 @@ return [
              */
             //'init' => ['SET GLOBAL innodb_stats_on_metadata = 0'],
             
-            'username' => $isLocal ? 'root' : 'turkeyhousekey_listings',
+            'username' => $isLocal ? 'root' : 'IDontKnow',
             'password' => $isLocal ? '' : '--Password--',
             
-            'database' => $isLocal ? 'listings' : 'turkeyhousekey_listings',
+            'database' => $isLocal ? 'cake_ready_setup' : 'IDontKnow',
         ],
 
         /*
